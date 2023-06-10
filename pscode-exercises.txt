@@ -1,10 +1,13 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
-(Your pseudocode here)
+sum = x + y
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+if number == even:
+    print(f"{str(number)} is even!")
+else:
+    print(f"{str(number)} is odd!")
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -14,6 +17,14 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+a) num_list = [1, 2, 3, 4, 5]
+b) average = (sum(num_list))/(len(num_list))
+c) min = min(num_list), max = max(num_list)
+d) // Average of five numbers in given list
+print(f"The average of your numbers is {average}.")
+
+// Gives minimum and maximum of given list
+print(f"The smallest number in your list is {min}.")
+print(f"The largest number in your list is {max}.")
 
 -- END --
